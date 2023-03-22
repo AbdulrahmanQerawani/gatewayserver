@@ -9,3 +9,4 @@ logging:
     com.netflix: WARN
     org.springframework.web: WARN
     com.infinity: DEBUG
+logging.pattern.level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
